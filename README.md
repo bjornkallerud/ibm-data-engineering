@@ -30,8 +30,8 @@
 | 5   | Databases and SQL for Data Science with Python                                                    | ✅ Complete  |
 | 6   | Hands-on Introduction to Linux Commands and Shell Scripting                                       | ✅ Complete  |
 | 7   | Relational Database Administration (DBA)                                                          | ✅ Complete  |
-| 8   | ETL and Data Pipelines with Shell, Airflow and Kafka                                               | 🚧 In Progress |
-| 9   | Getting Started with Data Warehousing and BI Analytics                                            | 📅 Upcoming |
+| 8   | ETL and Data Pipelines with Shell, Airflow and Kafka                                               | ✅ Complete   |
+| 9   | Getting Started with Data Warehousing and BI Analytics                                            | 🚧 Underway |
 | 10  | BI Dashboards with IBM Cognos Analytics and Google Looker                                          | 📅 Upcoming |
 | 11  | Introduction to NoSQL Databases                                                                   | 📅 Upcoming |
 | 12  | Introduction to Big Data with Spark and Hadoop                                                     | 📅 Upcoming |
@@ -54,6 +54,7 @@
 ├── 06_linux_shell_scripting/
 ├── 07_rdbms_dba/
 ├── 08_etl_airflow_kafka/
+│   └── src/               # Python source files for ETL workflows
 ├── 09_dw_and_bi_analytics/
 ├── 10_bi_dashboards_cognos_looker/
 ├── 11_intro_to_nosql/
@@ -62,7 +63,8 @@
 ├── 14_capstone/
 ├── 15_genai_for_de/
 ├── 16_career_guide/
-├── utils/                  # shared helpers
-├── data/                   # sample datasets or download scripts
+├── utils/                  
+├── data/                   
 ├── requirements.txt
 └── README.md
+```
